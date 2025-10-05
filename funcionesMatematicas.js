@@ -41,7 +41,15 @@ function resta(a,b){
   return a - b;
 };
 
+//Autor: Jose Aaron Coaquira Jimenez
+function multiplicacion(a, b){
+  return a * b;	
+};
+
 if (require.main === module) {
   console.log("La resta de los numeros (2,3) es =", resta(4,2));          // tiene que dar 2
+  console.log("La multiplicacion de los numeros (5, 4) es = ", multiplicacion(5*4));         // tiene que dar 20
   // colocar sus operaciones MATEMATICAS....
 }
+
+
