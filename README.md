@@ -5,3 +5,5 @@ Miembros del equipo:
 Fidel Vasquez Carata
 Pablo Walter Zuleta Novillo
 Jose Aaron Coaquira Jimenez
+Julio Cesar Garcia Omonte
+
