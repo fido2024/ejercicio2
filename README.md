@@ -1,2 +1,6 @@
 # ejercicio2
-para la tarea 2 de git
+
+para la tarea 2 de git: Grupo Vengadores
+Miembros del equipo:
+Fidel Vasquez Carata
+Pablo Walter Zuleta Novillo

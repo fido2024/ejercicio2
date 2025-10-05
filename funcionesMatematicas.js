@@ -9,7 +9,7 @@ Indicaciones para esta tarea:
 
 Integrantes y funciones :
 - Fidel Vasquez Carata: suma
-- (Nombre 2): resta
+- Pablo Walter Zuleta Novillo: resta
 - (Nombre 3): multiplicacion
 - (Nombre 4): division
 - ...
