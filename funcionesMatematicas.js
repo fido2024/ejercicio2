@@ -35,3 +35,13 @@ if (require.main === module) {
   console.log("La suma de estos numeros (2,3) es =", suma(2,3));          // tiene que dar 5
   // colocar sus operaciones MATEMATICAS....
 }
+
+//Autor: Pablo Walter Zuleta Novillo
+function resta(a,b){
+  return a - b;
+};
+
+if (require.main === module) {
+  console.log("La resta de los numeros (2,3) es =", resta(4,2));          // tiene que dar 2
+  // colocar sus operaciones MATEMATICAS....
+}
