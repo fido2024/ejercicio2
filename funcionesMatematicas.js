@@ -3,11 +3,11 @@
 Archivo: funcionesMatematicas.js
 Curso: Ing. de Software - Ejercicio 2 GIT
 Indicaciones para esta tarea:
-- Un solo archivo con TODAS las operaciones
-- Encabezado con nombres y operaciones
+- Un solo archivo con TODAS las operaciones matematicas
+- Encabezado con nombres y operaciones matematicas
 - Cada funcion debe incluir el nombre del autor
 
-Integrantes y operaciones (complete aquí):
+Integrantes y funciones :
 - Fidel Vasquez Carata: suma
 - (Nombre 2): resta
 - (Nombre 3): multiplicacion
@@ -16,9 +16,9 @@ Integrantes y operaciones (complete aquí):
 ===========================================
 */
 
-// === SECCION DE FUNCIONES () ===
+// === SECCION DE FUNCIONES U OPERACIONES MATEMATICAS () ===
 
-// Autor: Fidel Vasquez Carata | Operacion: suma
+// Autor: Fidel Vasquez Carata | Funcion: suma
 function suma(a, b) {
   return a + b;
 }
@@ -33,5 +33,5 @@ module.exports = {
 // === Pruebas rapidas  ===
 if (require.main === module) {
   console.log("suma_(2,3) =", suma_l(2,3));          // tiene que dar 5
-  // colocar sus operaciones....
+  // colocar sus operaciones MATEMATICAS....
 }
