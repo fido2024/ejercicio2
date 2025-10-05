@@ -10,9 +10,9 @@ Indicaciones para esta tarea:
 Integrantes y funciones :
 - Fidel Vasquez Carata: suma
 - Pablo Walter Zuleta Novillo: resta
-- (Nombre 3): multiplicacion
+- Jose Aaron Coaquira Jimenez: multiplicacion
 - (Nombre 4): division
-- ...
+- Enrique Walter Zuleta Novillo: factorial de un numero
 ===========================================
 */
 
@@ -46,10 +46,20 @@ function multiplicacion(a, b){
   return a * b;	
 };
 
+
+//Autor: Enrique Walter Zuleta Novillo
+
+function factorial(a){
+    if (n === 0 || n === 1) {
+      return 1;
+    }
+  
+    return n * factorial(n - 1);
+};
+
 if (require.main === module) {
   console.log("La resta de los numeros (2,3) es =", resta(4,2));          // tiene que dar 2
   console.log("La multiplicacion de los numeros (5, 4) es = ", multiplicacion(5*4));         // tiene que dar 20
+  console.log("El factorial de 5 es = ", factorial(5));   // Tiene que dar 120
   // colocar sus operaciones MATEMATICAS....
-}
-
-
+};
