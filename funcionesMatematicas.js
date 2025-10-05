@@ -32,6 +32,6 @@ module.exports = {
 
 // === Pruebas rapidas  ===
 if (require.main === module) {
-  console.log("suma_(2,3) =", suma_l(2,3));          // tiene que dar 5
+  console.log("La suma de estos numeros (2,3) es =", suma(2,3));          // tiene que dar 5
   // colocar sus operaciones MATEMATICAS....
 }
