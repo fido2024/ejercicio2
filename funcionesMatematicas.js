@@ -82,6 +82,11 @@ if (require.main === module) {
   console.log("El factorial de 5 es = ", factorial(5));   // Tiene que dar 120
   console.log("La potenciacion de los numeros, base 2 y exponente 4: (2,4) es= ",potenciacion(2,4)) //Tiene que dar 16
   console.log("La serie Fibonacci del número 6 es =", fibonacci(6));      // 8
+  // Pruebas para la función de raíz cuadrada descompuesta
+  console.log(raizCuadradaDescompuesta(8));   // 2√2
+  console.log(raizCuadradaDescompuesta(12));  // 2√3
+  console.log(raizCuadradaDescompuesta(7));   // √7
+  console.log(raizCuadradaDescompuesta(25));  // 5
   // colocar sus operaciones MATEMATICAS....
 
 };
@@ -100,6 +105,25 @@ function radicacion(base, indice) {
   return Math.sign(base) * Math.pow(Math.abs(base), 1 / indice);
 };
 
+//Autor: Erick Samuel Peñaloza Lujan
+//raiz cuadrada de un numero 
+function raizCuadradaDescompuesta(n) {
+  if (n < 0) 
+    return "No se puede calcular la raíz de un número negativo";
+  if (n === 0 || n === 1) 
+    return n;
 
-
+  for (let i = Math.floor(Math.sqrt(n)); i > 0; i--){
+    if (n % (i * i) === 0){
+      const a = i;
+      const b = n / (i * i);
+      if (b === 1) 
+        return a;
+      if (a === 1) 
+        return "√"+b;
+      return a+"√"+b;
+    }
+  }
+  return "√"+n;
+}
 
