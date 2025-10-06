@@ -16,6 +16,7 @@ Integrantes y funciones :
 - Julio Cesar Garcia Omonte: Potenciacion
 - Jherlan Marcelo Calero Sardan: Serie Fibonacci
 - Liz Karen Aroja Pinaya: radicacion
+- Erick Samuel Peñaloza Lujan
 ===========================================
 */
 
