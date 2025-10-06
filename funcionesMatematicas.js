@@ -143,3 +143,11 @@ function esPrimo(n){
         if (n % i === 0) return 'no es Primo';
       }return 'si es Primo';
 }
+
+//Autor Carlos Josue Vasquez Huanca
+function division(a, b) {
+  if (b === 0) {
+    return "Error: división entre 0 no permitida";
+  }
+  return a / b;
+};
