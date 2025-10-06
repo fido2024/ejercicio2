@@ -17,6 +17,7 @@ Integrantes y funciones :
 - Jherlan Marcelo Calero Sardan: Serie Fibonacci
 - Liz Karen Aroja Pinaya: radicacion
 - Erick Samuel Peñaloza Lujan
+- Frank Saul Guarayo Colomi: esPrimo
 ===========================================
 */
 
@@ -32,7 +33,14 @@ function suma(a, b) {
 // === EXPORTS PARA USO EN NODE O TESTS  ===
 module.exports = {
   suma,
-  fibonacci
+  resta,
+  multiplicacion,
+  factorial,
+  potenciacion,
+  fibonacci,
+  radicacion,
+  raizCuadradaDescompuesta,
+  esPrimo
 };
 
 // === Pruebas rapidas  ===
@@ -128,3 +136,10 @@ function raizCuadradaDescompuesta(n) {
   return "√"+n;
 }
 
+//Autor Frank Saul Guarayo Colomi
+function esPrimo(n){
+    if(n <= 1) return 'no es Primo';
+      for ( i = 2 ; i <= Math.sqrt(n); i++){
+        if (n % i === 0) return 'no es Primo';
+      }return 'si es Primo';
+}
