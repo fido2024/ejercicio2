@@ -14,6 +14,7 @@ Integrantes y funciones :
 - (Nombre 4): division
 - Enrique Walter Zuleta Novillo: factorial de un numero
 - Julio Cesar Garcia Omonte: Potenciacion
+- Jherlan Marcelo Calero Sardan: Serie Fibonacci
 -
 ===========================================
 */
@@ -30,6 +31,7 @@ function suma(a, b) {
 // === EXPORTS PARA USO EN NODE O TESTS  ===
 module.exports = {
   suma,
+  fibonacci
 };
 
 // === Pruebas rapidas  ===
@@ -64,10 +66,21 @@ function potenciacion(base,exponente){
   return base**exponente;
 };
 
+//Autor: Jherlan Marcelo Calero Sardan
+function fibonacci(n){
+  if (n < 0){
+    return "El número debe ser positivo";
+  }
+  if (n === 0) return 0;
+  if (n === 1) return 1;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
 if (require.main === module) {
   console.log("La resta de los numeros (2,3) es =", resta(4,2));          // tiene que dar 2
   console.log("La multiplicacion de los numeros (5, 4) es = ", multiplicacion(5,4));         // tiene que dar 20
   console.log("El factorial de 5 es = ", factorial(5));   // Tiene que dar 120
   console.log("La potenciacion de los numeros, base 2 y exponente 4: (2,4) es= ",potenciacion(2,4)) //Tiene que dar 16
+  console.log("La serie Fibonacci del número 6 es =", fibonacci(6));      // 8
   // colocar sus operaciones MATEMATICAS....
 };
