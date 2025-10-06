@@ -15,7 +15,7 @@ Integrantes y funciones :
 - Enrique Walter Zuleta Novillo: factorial de un numero
 - Julio Cesar Garcia Omonte: Potenciacion
 - Jherlan Marcelo Calero Sardan: Serie Fibonacci
--
+- Liz Karen Aroja Pinaya: radicacion
 ===========================================
 */
 
@@ -83,4 +83,23 @@ if (require.main === module) {
   console.log("La potenciacion de los numeros, base 2 y exponente 4: (2,4) es= ",potenciacion(2,4)) //Tiene que dar 16
   console.log("La serie Fibonacci del número 6 es =", fibonacci(6));      // 8
   // colocar sus operaciones MATEMATICAS....
+
 };
+
+//Autor:Liz Karen Aroja Pinaya  
+function radicacion(base, indice) {
+  if (indice === 0) {
+    return "Error: el índice no puede ser 0.";
+  }
+
+  // Si el número es negativo y el índice es par, no existe raíz real
+  if (base < 0 && indice % 2 === 0) {
+    return "Error: raíz par de número negativo no tiene solución real.";
+  }
+
+  return Math.sign(base) * Math.pow(Math.abs(base), 1 / indice);
+};
+
+
+
+
