@@ -10,3 +10,4 @@ Julio Cesar Garcia Omonte,
 Jherlan Marcelo Calero Sardan,
 Liz Karen Aroja Pinaya,
 Erick Samuel Peñaloza Lujan,
+Carlos Josue Vasquez Huanca
