@@ -13,3 +13,4 @@
 * Liz Karen Aroja Pinaya
 * Erick Samuel Peñaloza Lujan
 * Carlos Josue Vasquez Huanca
+* Frank Saul Guarayo Colomi

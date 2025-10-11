@@ -17,6 +17,7 @@ Integrantes y funciones :
 - Liz Karen Aroja Pinaya: radicacion
 - Erick Samuel Peñaloza Lujan: raiz cuadrada
 - Frank Saul Guarayo Colomi: esPrimo
+- Carlos Josue Vasquez Huanca : Division
 ===========================================
 */
 
